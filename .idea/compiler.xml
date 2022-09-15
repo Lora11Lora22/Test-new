@@ -10,5 +10,6 @@
         <module name="Test-new" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="10" />
   </component>
 </project>
