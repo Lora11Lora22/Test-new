@@ -17,13 +17,14 @@ import org.openqa.selenium.WebDriver;
     public void setUsername(String username){
         driver.findElement(usernameField).sendKeys(username);
     }
+
     public void setPassword(String password){
         driver.findElement(passwordField).sendKeys(password);
     }
+
     public SecureAreaPage clickLoginButton(){
         driver.findElement(loginButton).click();
-        return new SecureAreaPage(driver):
+        return new SecureAreaPage(driver);
 
 }
-
 }
