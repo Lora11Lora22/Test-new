@@ -29,8 +29,8 @@ public class HomePage {
         return new KeyPressesPage(driver);
     }
 
-    public HorizontalSliderPage clickHorizonalSlider() {
-        clickLink("Horizonal Slider");
+    public HorizontalSliderPage clickHorizontalSlider() {
+        clickLink("Horizontal Slider");
         return new HorizontalSliderPage(driver);
     }
 
