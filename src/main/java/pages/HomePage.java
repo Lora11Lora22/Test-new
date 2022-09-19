@@ -19,7 +19,7 @@ public class HomePage {
         clickLink("Dropdown");
         return new DropdownPage(driver);
     }
-public HoversPage clickHovers(){
+    public HoversPage clickHovers(){
         clickLink("Hovers");
         return new HoversPage(driver);
     }
@@ -29,8 +29,12 @@ public HoversPage clickHovers(){
         return new KeyPressesPage(driver);
     }
 
+    public HorizontalSliderPage clickHorizonalSlider() {
+        clickLink("Horizonal Slider");
+        return new HorizontalSliderPage(driver);
+    }
+
     private void clickLink(String linkText){
         driver.findElement(By.linkText(linkText)).click();
     }
-
 }
